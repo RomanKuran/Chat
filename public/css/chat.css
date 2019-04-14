@@ -1,0 +1,36 @@
+.container-messages .my-message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container-messages .alien-message{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.container-messages .my-message .container-message{
+    background-color: rgb(101, 235, 101);
+}
+.container-messages .alien-message .container-message{
+    background-color: rgb(101, 193, 235);
+}
+.container-messages .alien-message .container-message, .container-messages .my-message .container-message{
+    border-radius: 10px;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+.container-messages{
+    height: 75vh;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+.js-message-body{
+    width: 90%;
+}
+.input-contaner{
+    display: flex;
+    justify-content: center;;
+}
+.container-message .date{
+    font-size: 10px;
+}
